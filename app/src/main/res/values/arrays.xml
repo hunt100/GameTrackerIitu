@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="platforms">
+        <item>Steam</item>
+        <item>PS4</item>
+        <item>XBOX</item></string-array>
+
+    <string-array name="test">test</string-array>
+</resources>
